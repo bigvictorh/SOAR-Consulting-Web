@@ -1,0 +1,189 @@
+/*body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 800px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background: url(../Images/HTD_chemo.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#wall_2 {
+    background: url(../Images/HTD_infant.jpg) repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#wall_3 {
+    background: url(../Images/HTD_stroke.jpg) repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+#nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    top:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+    height: 80px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 100px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#content_1 {position: relative;}
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
+
+#theForm {
+    color:black;
+    display: table;
+    padding: 15px;
+    background-color: white;
+/*    border: solid 2px black;*/
+}
+
+#devicephoto {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+
+
+a:link {
+    color:black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Anivers';
+    font-size: 24px;
+    font-weight: bold;
+    right: 0px;
+    position: relative;
+    border-radius: 4px;
+    border: 6px solid #182946;
+}
+
+/*
+.buttonAbout {
+    background-color: #4CAF50;  Green 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+*/
+
+.row {
+    display: table-row;
+}
+
+.row label {
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+
+
