@@ -85,7 +85,7 @@ ul.posts li {
     background-size:cover;  
 }
 #wall_2 {
-    background: url(../Images/HTD_infant.jpg) repeat;
+    background: url(../images/royce.jpg) repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -108,7 +108,7 @@ ul.posts li {
 }
 #nav #logo {
     height: 100px;
-    width: 400px;
+    width: 520px;
     position: absolute;
     top: 0;
     bottom:0;
@@ -133,7 +133,7 @@ h1::first-letter {
 a:link {
     color:black;
     text-decoration: none;
-    background-color: aliceblue;
+/*    background-color: aliceblue;*/
     padding: 14px 25px;
     text-align: center;
     display: inline-block;
@@ -143,6 +143,7 @@ a:link {
     right: 0px;
     position: relative;
     border-radius: 1px;
+    top: 50px;
 /*    border: 1px solid #182946;*/
 }
 
